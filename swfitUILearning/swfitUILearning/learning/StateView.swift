@@ -13,24 +13,28 @@ import SwiftUI
 struct StateView: View {
     
     // @State var message =  9
-    // let message: Int
+     let message: String
     @State var user = User()
     
     var body: some View {
-        // Text("Hi \(message)")
         VStack {
-            Text("first name is \(user.firstName)")
-            Text("last name is \(user.lastName)")
-            
-            TextField("First name", text: $user.firstName)
-            TextField("Last name", text: $user.lastName)
+            VStack {
+                Text("first name is \(user.firstName)")
+                Text("last name is \(user.lastName)")
+                
+                TextField("First name", text: $user.firstName)
+                TextField("Last name", text: $user.lastName)
+            }
+            VStack {
+                Text("Hi \(message)")
+            }
         }
     }
 }
 
 struct StateView_Previews: PreviewProvider {
     static var previews: some View {
-        StateView()
+        StateView(message: "default value")
     }
 }
 

@@ -13,6 +13,8 @@
 		AAF08B282917D10D003516AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF08B272917D10D003516AF /* Preview Assets.xcassets */; };
 		AAF08B322917DC68003516AF /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B312917DC68003516AF /* StateView.swift */; };
 		AAF08B342917E13D003516AF /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B332917E13D003516AF /* StateObjectView.swift */; };
+		AAF08B382918D173003516AF /* ShowHIdingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B372918D173003516AF /* ShowHIdingView.swift */; };
+		AAF08B3C2918E181003516AF /* deletingItemsUsingOnDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		AAF08B272917D10D003516AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AAF08B312917DC68003516AF /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		AAF08B332917E13D003516AF /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
+		AAF08B372918D173003516AF /* ShowHIdingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHIdingView.swift; sourceTree = "<group>"; };
+		AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletingItemsUsingOnDeleteView.swift; sourceTree = "<group>"; };
+		AAF08B3D2918F09B003516AF /* StructureSwiftUIApp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructureSwiftUIApp.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		AAF08B2F2917DC3B003516AF /* docs */ = {
 			isa = PBXGroup;
 			children = (
+				AAF08B3D2918F09B003516AF /* StructureSwiftUIApp.md */,
 			);
 			path = docs;
 			sourceTree = "<group>";
@@ -93,6 +99,8 @@
 			children = (
 				AAF08B312917DC68003516AF /* StateView.swift */,
 				AAF08B332917E13D003516AF /* StateObjectView.swift */,
+				AAF08B372918D173003516AF /* ShowHIdingView.swift */,
+				AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */,
 			);
 			path = learning;
 			sourceTree = "<group>";
@@ -168,9 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF08B322917DC68003516AF /* StateView.swift in Sources */,
+				AAF08B382918D173003516AF /* ShowHIdingView.swift in Sources */,
 				AAF08B232917D10C003516AF /* ContentView.swift in Sources */,
 				AAF08B212917D10C003516AF /* swfitUILearningApp.swift in Sources */,
 				AAF08B342917E13D003516AF /* StateObjectView.swift in Sources */,
+				AAF08B3C2918E181003516AF /* deletingItemsUsingOnDeleteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
