@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var testPicker = 8
+    
     var body: some View {
-        StateObjectView()
+        
+        VStack {
+            FattherView()
+            
+            Picker("Test Picker", selection: $testPicker) {
+                ForEach(0..<40) {
+                    Text("\($0)")
+                }
+            }
+            
+        }
+        
     }
 }
 

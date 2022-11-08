@@ -15,6 +15,9 @@
 		AAF08B342917E13D003516AF /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B332917E13D003516AF /* StateObjectView.swift */; };
 		AAF08B382918D173003516AF /* ShowHIdingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B372918D173003516AF /* ShowHIdingView.swift */; };
 		AAF08B3C2918E181003516AF /* deletingItemsUsingOnDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */; };
+		AAF08B3F291A033D003516AF /* AddNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B3E291A033D003516AF /* AddNavigationBarView.swift */; };
+		AAF08B42291A1CFF003516AF /* FattherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B41291A1CFF003516AF /* FattherView.swift */; };
+		AAF08B44291A1D16003516AF /* ChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B43291A1D16003516AF /* ChildrenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		AAF08B372918D173003516AF /* ShowHIdingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHIdingView.swift; sourceTree = "<group>"; };
 		AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletingItemsUsingOnDeleteView.swift; sourceTree = "<group>"; };
 		AAF08B3D2918F09B003516AF /* StructureSwiftUIApp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructureSwiftUIApp.md; sourceTree = "<group>"; };
+		AAF08B3E291A033D003516AF /* AddNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNavigationBarView.swift; sourceTree = "<group>"; };
+		AAF08B41291A1CFF003516AF /* FattherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FattherView.swift; sourceTree = "<group>"; };
+		AAF08B43291A1D16003516AF /* ChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,23 @@
 		AAF08B302917DC4E003516AF /* learning */ = {
 			isa = PBXGroup;
 			children = (
+				AAF08B40291A1CD7003516AF /* ReadingTextFromTextField */,
 				AAF08B312917DC68003516AF /* StateView.swift */,
 				AAF08B332917E13D003516AF /* StateObjectView.swift */,
 				AAF08B372918D173003516AF /* ShowHIdingView.swift */,
 				AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */,
+				AAF08B3E291A033D003516AF /* AddNavigationBarView.swift */,
 			);
 			path = learning;
+			sourceTree = "<group>";
+		};
+		AAF08B40291A1CD7003516AF /* ReadingTextFromTextField */ = {
+			isa = PBXGroup;
+			children = (
+				AAF08B41291A1CFF003516AF /* FattherView.swift */,
+				AAF08B43291A1D16003516AF /* ChildrenView.swift */,
+			);
+			path = ReadingTextFromTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF08B44291A1D16003516AF /* ChildrenView.swift in Sources */,
 				AAF08B322917DC68003516AF /* StateView.swift in Sources */,
 				AAF08B382918D173003516AF /* ShowHIdingView.swift in Sources */,
 				AAF08B232917D10C003516AF /* ContentView.swift in Sources */,
 				AAF08B212917D10C003516AF /* swfitUILearningApp.swift in Sources */,
 				AAF08B342917E13D003516AF /* StateObjectView.swift in Sources */,
+				AAF08B42291A1CFF003516AF /* FattherView.swift in Sources */,
+				AAF08B3F291A033D003516AF /* AddNavigationBarView.swift in Sources */,
 				AAF08B3C2918E181003516AF /* deletingItemsUsingOnDeleteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
