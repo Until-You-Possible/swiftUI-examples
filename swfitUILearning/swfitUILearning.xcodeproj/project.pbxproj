@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAD505C32930CA5A009DDAC2 /* Nov25_record.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Nov25_record.md; sourceTree = "<group>"; };
 		AAF08B1D2917D10C003516AF /* swfitUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swfitUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF08B202917D10C003516AF /* swfitUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfitUILearningApp.swift; sourceTree = "<group>"; };
 		AAF08B222917D10C003516AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				AAF08B3D2918F09B003516AF /* StructureSwiftUIApp.md */,
+				AAD505C32930CA5A009DDAC2 /* Nov25_record.md */,
 			);
 			path = docs;
 			sourceTree = "<group>";
