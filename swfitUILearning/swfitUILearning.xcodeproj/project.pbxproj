@@ -11,6 +11,8 @@
 		AAD505CC29359831009DDAC2 /* loadAsycImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505CB29359831009DDAC2 /* loadAsycImage.swift */; };
 		AAD505D22936049A009DDAC2 /* UploadImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505D12936049A009DDAC2 /* UploadImageViewModel.swift */; };
 		AAD505D4293604AD009DDAC2 /* UploadImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505D3293604AD009DDAC2 /* UploadImageVIew.swift */; };
+		AAD505D829364E89009DDAC2 /* UploadMutipleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505D729364E89009DDAC2 /* UploadMutipleImageView.swift */; };
+		AAD505DA29364EA0009DDAC2 /* UploadMutipleImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505D929364EA0009DDAC2 /* UploadMutipleImageViewModel.swift */; };
 		AAF08B212917D10C003516AF /* swfitUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B202917D10C003516AF /* swfitUILearningApp.swift */; };
 		AAF08B232917D10C003516AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B222917D10C003516AF /* ContentView.swift */; };
 		AAF08B252917D10D003516AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF08B242917D10D003516AF /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		AAD505CB29359831009DDAC2 /* loadAsycImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadAsycImage.swift; sourceTree = "<group>"; };
 		AAD505D12936049A009DDAC2 /* UploadImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewModel.swift; sourceTree = "<group>"; };
 		AAD505D3293604AD009DDAC2 /* UploadImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageVIew.swift; sourceTree = "<group>"; };
+		AAD505D729364E89009DDAC2 /* UploadMutipleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMutipleImageView.swift; sourceTree = "<group>"; };
+		AAD505D929364EA0009DDAC2 /* UploadMutipleImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMutipleImageViewModel.swift; sourceTree = "<group>"; };
 		AAF08B1D2917D10C003516AF /* swfitUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swfitUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF08B202917D10C003516AF /* swfitUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfitUILearningApp.swift; sourceTree = "<group>"; };
 		AAF08B222917D10C003516AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,13 +67,22 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
-		AAD505D029360429009DDAC2 /* uploadImage */ = {
+		AAD505D029360429009DDAC2 /* uploadSingleImage */ = {
 			isa = PBXGroup;
 			children = (
 				AAD505D12936049A009DDAC2 /* UploadImageViewModel.swift */,
 				AAD505D3293604AD009DDAC2 /* UploadImageVIew.swift */,
 			);
-			path = uploadImage;
+			path = uploadSingleImage;
+			sourceTree = "<group>";
+		};
+		AAD505D629364E61009DDAC2 /* uploadMutipleImage */ = {
+			isa = PBXGroup;
+			children = (
+				AAD505D729364E89009DDAC2 /* UploadMutipleImageView.swift */,
+				AAD505D929364EA0009DDAC2 /* UploadMutipleImageViewModel.swift */,
+			);
+			path = uploadMutipleImage;
 			sourceTree = "<group>";
 		};
 		AAF08B142917D10C003516AF = {
@@ -113,7 +126,8 @@
 		AAF08B2E2917DC30003516AF /* demos */ = {
 			isa = PBXGroup;
 			children = (
-				AAD505D029360429009DDAC2 /* uploadImage */,
+				AAD505D629364E61009DDAC2 /* uploadMutipleImage */,
+				AAD505D029360429009DDAC2 /* uploadSingleImage */,
 			);
 			path = demos;
 			sourceTree = "<group>";
@@ -228,7 +242,9 @@
 				AAD505D4293604AD009DDAC2 /* UploadImageVIew.swift in Sources */,
 				AAD505CC29359831009DDAC2 /* loadAsycImage.swift in Sources */,
 				AAF08B382918D173003516AF /* ShowHIdingView.swift in Sources */,
+				AAD505D829364E89009DDAC2 /* UploadMutipleImageView.swift in Sources */,
 				AAD505CA29347A87009DDAC2 /* ImageLoadLocalImage.swift in Sources */,
+				AAD505DA29364EA0009DDAC2 /* UploadMutipleImageViewModel.swift in Sources */,
 				AAF08B232917D10C003516AF /* ContentView.swift in Sources */,
 				AAF08B212917D10C003516AF /* swfitUILearningApp.swift in Sources */,
 				AAF08B342917E13D003516AF /* StateObjectView.swift in Sources */,

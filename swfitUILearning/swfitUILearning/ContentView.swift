@@ -12,7 +12,6 @@ struct ContentView: View {
     @State private var testPicker = 8
     
     var body: some View {
-        
         VStack {
             FattherView()
             
