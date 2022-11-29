@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAD505CA29347A87009DDAC2 /* ImageLoadLocalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505C929347A87009DDAC2 /* ImageLoadLocalImage.swift */; };
+		AAD505CC29359831009DDAC2 /* loadAsycImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505CB29359831009DDAC2 /* loadAsycImage.swift */; };
+		AAD505D22936049A009DDAC2 /* UploadImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505D12936049A009DDAC2 /* UploadImageViewModel.swift */; };
+		AAD505D4293604AD009DDAC2 /* UploadImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD505D3293604AD009DDAC2 /* UploadImageVIew.swift */; };
 		AAF08B212917D10C003516AF /* swfitUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B202917D10C003516AF /* swfitUILearningApp.swift */; };
 		AAF08B232917D10C003516AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF08B222917D10C003516AF /* ContentView.swift */; };
 		AAF08B252917D10D003516AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF08B242917D10D003516AF /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 
 /* Begin PBXFileReference section */
 		AAD505C32930CA5A009DDAC2 /* Nov25_record.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Nov25_record.md; sourceTree = "<group>"; };
+		AAD505C929347A87009DDAC2 /* ImageLoadLocalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadLocalImage.swift; sourceTree = "<group>"; };
+		AAD505CB29359831009DDAC2 /* loadAsycImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadAsycImage.swift; sourceTree = "<group>"; };
+		AAD505D12936049A009DDAC2 /* UploadImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewModel.swift; sourceTree = "<group>"; };
+		AAD505D3293604AD009DDAC2 /* UploadImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageVIew.swift; sourceTree = "<group>"; };
 		AAF08B1D2917D10C003516AF /* swfitUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swfitUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF08B202917D10C003516AF /* swfitUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfitUILearningApp.swift; sourceTree = "<group>"; };
 		AAF08B222917D10C003516AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAD505CD29360230009DDAC2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AAD505D029360429009DDAC2 /* uploadImage */ = {
+			isa = PBXGroup;
+			children = (
+				AAD505D12936049A009DDAC2 /* UploadImageViewModel.swift */,
+				AAD505D3293604AD009DDAC2 /* UploadImageVIew.swift */,
+			);
+			path = uploadImage;
+			sourceTree = "<group>";
+		};
 		AAF08B142917D10C003516AF = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +113,7 @@
 		AAF08B2E2917DC30003516AF /* demos */ = {
 			isa = PBXGroup;
 			children = (
+				AAD505D029360429009DDAC2 /* uploadImage */,
 			);
 			path = demos;
 			sourceTree = "<group>";
@@ -105,12 +130,15 @@
 		AAF08B302917DC4E003516AF /* learning */ = {
 			isa = PBXGroup;
 			children = (
+				AAD505CD29360230009DDAC2 /* New Group */,
 				AAF08B40291A1CD7003516AF /* ReadingTextFromTextField */,
 				AAF08B312917DC68003516AF /* StateView.swift */,
 				AAF08B332917E13D003516AF /* StateObjectView.swift */,
 				AAF08B372918D173003516AF /* ShowHIdingView.swift */,
 				AAF08B3B2918E181003516AF /* deletingItemsUsingOnDeleteView.swift */,
 				AAF08B3E291A033D003516AF /* AddNavigationBarView.swift */,
+				AAD505C929347A87009DDAC2 /* ImageLoadLocalImage.swift */,
+				AAD505CB29359831009DDAC2 /* loadAsycImage.swift */,
 			);
 			path = learning;
 			sourceTree = "<group>";
@@ -195,8 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF08B44291A1D16003516AF /* ChildrenView.swift in Sources */,
+				AAD505D22936049A009DDAC2 /* UploadImageViewModel.swift in Sources */,
 				AAF08B322917DC68003516AF /* StateView.swift in Sources */,
+				AAD505D4293604AD009DDAC2 /* UploadImageVIew.swift in Sources */,
+				AAD505CC29359831009DDAC2 /* loadAsycImage.swift in Sources */,
 				AAF08B382918D173003516AF /* ShowHIdingView.swift in Sources */,
+				AAD505CA29347A87009DDAC2 /* ImageLoadLocalImage.swift in Sources */,
 				AAF08B232917D10C003516AF /* ContentView.swift in Sources */,
 				AAF08B212917D10C003516AF /* swfitUILearningApp.swift in Sources */,
 				AAF08B342917E13D003516AF /* StateObjectView.swift in Sources */,
